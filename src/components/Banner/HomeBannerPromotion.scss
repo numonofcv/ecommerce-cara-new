@@ -1,0 +1,161 @@
+#banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+
+  background-image: url('../../assets/banner/b2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  width: 100%;
+  height: 40vh;
+  padding: 0 20px;
+}
+
+/* TEXT */
+#banner h4 {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+#banner h2 {
+  font-size: 30px;
+  color: #fff;
+  margin: 10px 0;
+  line-height: 1.2;
+
+  span {
+    color: #ef3636;
+  }
+}
+
+/* BUTTON */
+#banner button {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 13px 30px;
+  color: #ffffff;
+  background-color: #088178;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+  margin-top: 12px;
+
+  &:hover {
+    background-color: #ffffff;
+    color: #088178;
+  }
+}
+
+/* ========================= */
+/* 🔹 1440px+ (Large Desktop) */
+/* ========================= */
+@media (min-width: 1440px) {
+ 
+  #banner h4 {
+    font-size: 18px;
+  }
+
+  #banner h2 {
+    font-size: 40px;
+  }
+
+  #banner button {
+    font-size: 16px;
+    padding: 15px 36px;
+  }
+}
+
+/* ========================= */
+/* 🔹 1024px – 1439px */
+/* ========================= */
+@media (max-width: 1439px) and (min-width: 1024px) {
+ 
+  #banner h2 {
+    font-size: 36px;
+  }
+}
+
+/* ========================= */
+/* 🔹 992px – 1023px */
+/* ========================= */
+@media (max-width: 1023px) and (min-width: 992px) {
+ 
+  #banner h2 {
+    font-size: 32px;
+  }
+}
+
+/* ========================= */
+/* 🔹 768px – 991px (Tablet) */
+/* ========================= */
+@media (max-width: 991px) and (min-width: 768px) {
+ 
+  #banner h4 {
+    font-size: 15px;
+  }
+
+  #banner h2 {
+    font-size: 28px;
+  }
+
+  #banner button {
+    padding: 12px 28px;
+  }
+}
+
+/* ========================= */
+/* 🔹 576px – 767px */
+/* ========================= */
+@media (max-width: 767px) and (min-width: 576px) {
+ 
+  #banner h4 {
+    font-size: 14px;
+  }
+
+  #banner h2 {
+    font-size: 24px;
+  }
+
+  #banner button {
+    font-size: 13px;
+    padding: 11px 24px;
+  }
+}
+
+/* ========================= */
+/* 🔹 375px – 575px */
+/* ========================= */
+@media (max-width: 575px) {
+  #banner {
+    padding: 0 15px;
+  }
+
+  #banner button {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+}
+
+/* ========================= */
+/* 🔹 ≤375px (Small Mobile) */
+/* ========================= */
+@media (max-width: 375px) {
+  #banner {
+    height: 24vh;
+  }
+
+  #banner h2 {
+    font-size: 18px;
+  }
+
+  #banner button {
+    padding: 9px 18px;
+  }
+}
