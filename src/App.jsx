@@ -7,6 +7,7 @@ import Blog from "./pages/Blog";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer/Footer";
+import ProductDetails from "./pages/ProductDetails";
 
 const App = () => {
     return (
@@ -18,10 +19,11 @@ const App = () => {
                     <Route path="/shop" element={<Shop />} />
                     <Route path="/blog" element={<Blog />} />
                     <Route path="/about" element={<About />} />
+                    <Route path="/product/:id" element={<ProductDetails />} />
                     <Route path="/contact" element={<Contact />} />
                 </Routes>
             </main>
-            <Footer/>
+            <Footer />
         </>
     );
 };

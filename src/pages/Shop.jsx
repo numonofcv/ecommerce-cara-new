@@ -1,10 +1,17 @@
 import React from "react";
+import ShopBanner from "../components/Banner/ShopBanner";
+import FeaturesProduct from "../components/Products/FeaturesProducts";
+import Newsletter from "../components/NewsLater/NewsLatter";
+import ShopProduct from "../components/Products/ShopProduct";
 
 const Shop = () => (
-    <section>
-        <h1>Shop</h1>
+    <div>
+        <ShopBanner />
+        <ShopProduct />
+        <FeaturesProduct/>
+        <Newsletter/>
         <p>Bu Shop sahifa (placeholder).</p>
-    </section>
+    </div>
 );
 
 export default Shop;

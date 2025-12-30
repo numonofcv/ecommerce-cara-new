@@ -8,7 +8,7 @@ import SecondPromotion from "../components/Banner/SecondPromotion.jsx";
 import Newsletter from "../components/NewsLater/NewsLatter.jsx";
 
 const Home = () => (
-    <section>
+    <>
         <Hero />
         <Features/>
         <FeaturesProduct />
@@ -16,7 +16,7 @@ const Home = () => (
         <NewProducts/>
         <SecondPromotion/>
         <Newsletter/>
-    </section>
+    </>
 );
 
 export default Home;
